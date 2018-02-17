@@ -17,7 +17,7 @@ var dodger = {
         this.cursors = game.input.keyboard.createCursorKeys();
         
         this.mechants = game.add.group();
-        this.timer = game.time.events.loop(200,this.ajouterUnMechant,this);
+        this.timer = game.time.events.loop(300,this.ajouterUnMechant,this);
         this.score = 0;
         this.labelScore = game.add.text(100,08,"0");
     },
