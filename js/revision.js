@@ -1,4 +1,4 @@
-var game = new Phaser.Gam(600,600,Phaser.AUTO);
+var game = new Phaser.Game(800, 600, Phaser.AUTO, { preload: preload, create: create, update: update });
 var vitesse = 350;
 var meillScore = 0;
 var dodger = {
